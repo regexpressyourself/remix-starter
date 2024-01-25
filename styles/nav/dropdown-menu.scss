@@ -1,0 +1,57 @@
+.nav-menu {
+  z-index: 100000;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 100%;
+  margin-left: -2rem;
+  position: absolute;
+  padding: 0.5rem 0.5rem 1rem;
+  background-color: var(--color-background);
+  border: 0.25rem solid;
+  border-color: var(--color-foreground);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  color: transparent;
+  justify-content: space-between;
+  align-items: flex-start;
+  &.hidden {
+    display: none;
+  }
+  button {
+    background: unset;
+    color: var(--color-foreground);
+    padding: 0;
+    justify-content: flex-end;
+  }
+  & > * {
+    padding: 1rem 0 1rem 1rem;
+    border-bottom: 1px solid;
+    border-color: var(--color-foreground);
+  }
+  & > hr {
+    padding: 0.5rem;
+  }
+  & > *:first-child {
+    padding-top: 0;
+  }
+  & > *:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  & > h2 {
+    color: var(--color-foreground);
+    border: none;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  & > hr {
+    border: none;
+    padding: 0;
+  }
+
+  [type="submit"] {
+    text-align: end;
+  }
+}

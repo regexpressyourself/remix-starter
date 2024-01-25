@@ -1,0 +1,15 @@
+{
+  "title": "Remix Starter | Here we go again",
+  "name": "Remix Starter | Here we go again",
+  "description": "A starter template for remix apps",
+  "theme": "purple",
+  "faviconSrc": "https://smessina.com/images/sm_fav.png",
+  "twitterImage": "https://smessina.com/images/sm.png",
+  "twitterSite": "https://smessina.com",
+  "keywords": ["Remix", "Express", "SASS"],
+  "twitterCard": "summary_large_image",
+  "twitterCreator": "@MrSamMessina",
+  "twitterHandle": "@MrSamMessina",
+  "version": "1.0.0",
+  "manifest_version": 2
+}

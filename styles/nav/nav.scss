@@ -1,0 +1,50 @@
+.main-nav {
+  border-bottom: 1px solid var(--color-border);
+  position: relative;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-link {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    padding: 0;
+    img {
+      max-width: 30vw;
+      @media print, (min-width: 640px) {
+        max-width: 10rem;
+      }
+    }
+    a {
+      color: var(--color-foreground);
+    }
+    a:hover {
+      text-decoration: none;
+      text-decoration-style: wavy;
+      text-decoration-thickness: 1px;
+    }
+  }
+  .logo-medium {
+    display: none;
+  }
+  .nav-login-form {
+    display: block;
+    width: unset;
+  }
+  .user-info {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    white-space: nowrap;
+  }
+  @media print, (min-width: 640px) {
+    .logo {
+      display: none;
+    }
+
+    .logo-medium {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,148 @@
+:root.peachy-theme {
+  --color-foreground: rgb(255, 255, 255);
+  --color-semitrans-white: rgba(255, 255, 255, 0.6);
+  --color-background: rgb(109, 104, 117);
+  --darker-background: rgb(89, 84, 97);
+  --color-background-semitrans: rgba(109, 104, 117, 0.6);
+  --color-background-mostlytrans: rgba(109, 104, 117, 0.25);
+  --color-links: rgb(255, 205, 178);
+  --color-links-semitrans: rgba(255, 205, 178, 0.6);
+  --color-links-mostlytrans: rgba(255, 205, 178, 0.25);
+  --color-links-visited: rgb(255, 205, 178);
+  --color-links-hover: rgb(255, 180, 162);
+  --color-border: rgb(181, 131, 141);
+  --color-border-semitrans: rgba(181, 131, 141, 0.6);
+  --color-border-mostlytrans: rgba(181, 131, 141, 0.25);
+  --color-invalid: rgb(229, 152, 155);
+  --color-invalid-semitrans: rgba(229, 152, 155, 0.6);
+  --color-invalid-mostlytrans: rgba(229, 152, 155, 0.25);
+  --gradient-background: radial-gradient(
+    circle,
+    rgba(109, 104, 117) 0%,
+    rgba(255, 205, 178) 100%
+  );
+}
+
+:root.green-theme {
+  --color-foreground: rgb(255, 255, 255);
+  --color-semitrans-white: rgba(255, 255, 255, 0.6);
+  --color-background: rgb(56, 102, 65);
+  --darker-background: rgb(41, 82, 49);
+  --color-background-semitrans: rgba(56, 102, 65, 0.6);
+  --color-background-mostlytrans: rgba(56, 102, 65, 0.25);
+  --color-links: rgb(167, 201, 87);
+  --color-links-semitrans: rgba(167, 201, 87, 0.6);
+  --color-links-mostlytrans: rgba(167, 201, 87, 0.25);
+  --color-links-visited: rgb(167, 201, 87);
+  --color-links-hover: rgb(106, 153, 78);
+  --color-border: rgb(242, 232, 207);
+  --color-border-semitrans: rgba(242, 232, 207, 0.6);
+  --color-border-mostlytrans: rgba(242, 232, 207, 0.25);
+  --color-invalid: rgb(188, 71, 73);
+  --color-invalid-semitrans: rgba(188, 71, 73, 0.6);
+  --color-invalid-mostlytrans: rgba(188, 71, 73, 0.25);
+  --gradient-background: radial-gradient(
+    circle,
+    rgba(56, 102, 65) 0%,
+    rgba(167, 201, 87) 100%
+  );
+}
+
+:root.purple-theme {
+  --color-foreground: rgb(255, 255, 255);
+  --color-semitrans-white: rgba(255, 255, 255, 0.6);
+  --color-background-semitrans: rgba(82, 40, 136, 0.6);
+  --color-background-mostlytrans: rgba(82, 40, 136, 0.25);
+  --color-background: rgb(102, 51, 153);
+  --darker-background: rgb(82, 41, 133);
+  --color-background-semitrans: rgba(102, 51, 153, 0.6);
+  --color-background-mostlytrans: rgba(102, 51, 153, 0.25);
+  --color-links: rgb(245, 187, 6);
+  --color-links-semitrans: rgba(245, 187, 6, 0.6);
+  --color-links-mostlytrans: rgba(245, 187, 6, 0.25);
+  --color-links-visited: rgb(245, 187, 6);
+  --color-links-hover: rgb(252, 198, 2);
+  --color-border: rgb(255, 221, 85);
+  --color-border-semitrans: rgba(255, 221, 85, 0.6);
+  --color-border-mostlytrans: rgba(255, 221, 85, 0.25);
+  --color-invalid: rgb(188, 71, 73);
+  --color-invalid-semitrans: rgba(188, 71, 73, 0.6);
+  --color-invalid-mostlytrans: rgba(188, 71, 73, 0.25);
+  --gradient-background: radial-gradient(
+    circle,
+    rgba(56, 102, 65) 0%,
+    rgba(167, 201, 87) 100%
+  );
+}
+$base03: #002b36;
+$base02: #073642;
+$base01: #586e75;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+$yellow: #b58900;
+$orange: #cb4b16;
+$red: #dc322f;
+$magenta: #d33682;
+$violet: #6c71c4;
+$blue: #268bd2;
+$cyan: #2aa198;
+$green: #859900;
+:root.default-theme {
+  --color-foreground: rgb(7, 54, 66);
+  --color-foreground-semitrans: rgba(7, 54, 66, 0.6);
+  --color-foreground-mostlytrans: rgba(7, 54, 66, 0.25);
+  --color-background: rgb(253, 246, 227);
+  --darker-background: rgb(233, 226, 207);
+  --color-background-semitrans: rgba(253, 246, 227, 0.6);
+  --color-background-mostlytrans: rgba(253, 246, 227, 0.25);
+  --color-links: rgb(38, 139, 210);
+  --color-links-semitrans: rgba(38, 139, 210, 0.6);
+  --color-links-mostlytrans: rgba(38, 139, 210, 0.25);
+  --color-links-visited: rgb(86, 86, 255);
+  --color-links-hover: rgb(108, 113, 196);
+  --color-border: rgb(7, 54, 66);
+  --color-border-semitrans: rgba(7, 54, 66, 0.6);
+  --color-border-mostlytrans: rgba(7, 54, 66, 0.25);
+  --color-invalid: rgb(220, 50, 47);
+  --color-invalid-semitrans: rgba(220, 50, 47, 0.6);
+  --color-invalid-mostlytrans: rgba(220, 50, 47, 0.25);
+  --color-semitrans-white: rgba(255, 255, 255, 0.6);
+  --gradient-background: radial-gradient(
+    circle,
+    rgba(17, 138, 178, 1) 0%,
+    rgba(7, 59, 76, 1) 100%
+  );
+  --font-body: inter, -apple-system, "Segoe UI", Helvetica Neue, Helvetica,
+    Roboto, Arial, sans-serif, system-ui, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-display: inter, var(--font-body);
+}
+
+:root.blue-theme {
+  --color-foreground: hsl(0, 0%, 100%);
+  --color-background: hsl(195, 83%, 16%);
+  --darker-background: hsl(195, 83%, 10%);
+  --color-background-semitrans: hsla(195, 83%, 16%, 0.6);
+  --color-background-mostlytrans: hsla(195, 83%, 16%, 0.25);
+  --color-links: hsl(42, 100%, 50%);
+  --color-links-semitrans: hsla(42, 100%, 50%, 0.6);
+  --color-links-mostlytrans: hsla(42, 100%, 50%, 0.25);
+  --color-links-visited: hsl(42, 100%, 50%);
+  --color-links-hover: hsl(42, 100%, 45%);
+  --color-border: hsl(195, 83%, 38%);
+  --color-border-semitrans: hsla(195, 83%, 38%, 0.6);
+  --color-border-mostlytrans: hsla(195, 83%, 38%, 0.25);
+  --color-invalid: hsl(346, 84%, 61%);
+  --color-invalid-semitrans: hsla(346, 84%, 61%, 0.6);
+  --color-invalid-mostlytrans: hsla(346, 84%, 61%, 0.25);
+  --gradient-background: radial-gradient(
+    circle,
+    rgba(17, 138, 178, 1) 0%,
+    rgba(7, 59, 76, 1) 100%
+  );
+  --font-body: inter, -apple-system, "Segoe UI", Helvetica Neue, Helvetica,
+    Roboto, Arial, sans-serif, system-ui, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-display: inter, var(--font-body);
+}
