@@ -77,18 +77,26 @@ export default function App() {
 }
 
 export function ErrorBoundary() {
+  const theme = manifest.theme || "default";
   const error = useRouteError();
   console.error(error);
   return (
-    <html>
+    <html lang="en" className={`${theme}-theme`}>
       <head>
         <title>Oh no!</title>
+        <link rel="icon" href="data:image/x-icon;base64,AA" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
         <Links />
       </head>
-      <body>
-        <h1>Something went wrong</h1>
-        <p>Sorry about that. Try refreshing the page to fix the issue.</p>
+      <body className={`App ${theme}-theme`}>
+        <div className="Body">
+          <main>
+            <h1>Something went wrong</h1>
+            <p>Sorry about that. Try refreshing the page to fix the issue.</p>
+          </main>
+        </div>
         <Scripts />
       </body>
     </html>

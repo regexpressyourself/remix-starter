@@ -1,5 +1,6 @@
 import { type LoaderFunction, type MetaFunction } from "@remix-run/node";
 import { Form } from "@remix-run/react";
+import GenericError from "~/components/generic-error";
 import { authenticator } from "~/utils/auth.server";
 import { makeMeta } from "~/utils/merge-meta";
 
@@ -28,3 +29,5 @@ export default function Login() {
     </main>
   );
 }
+
+export const ErrorBoundary = GenericError;

@@ -1,5 +1,6 @@
 import { type MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
+import GenericError from "~/components/generic-error";
 import { makeMeta } from "~/utils/merge-meta";
 
 export const meta: MetaFunction = makeMeta({ title: "Not found" });
@@ -15,3 +16,5 @@ export default function FourOhFour() {
     </main>
   );
 }
+
+export const ErrorBoundary = GenericError;

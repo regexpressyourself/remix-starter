@@ -2,6 +2,7 @@ import type { User } from "@prisma/client";
 import type { LoaderFunction } from "@remix-run/node";
 import { type ActionFunction, type MetaFunction } from "@remix-run/node";
 import { Form, useLoaderData } from "@remix-run/react";
+import GenericError from "~/components/generic-error";
 import { actions } from "~/utils/actions.server";
 import { authenticator } from "~/utils/auth.server";
 import { PATCH_USER } from "~/utils/constants/actions";
@@ -49,3 +50,5 @@ export default function Index() {
     </main>
   );
 }
+
+export const ErrorBoundary = GenericError;
